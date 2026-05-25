@@ -126,7 +126,7 @@ Through extensive exploration of ball-by-ball data, this analysis reveals how th
 <tr>
 
 <td align="center">
-<img src="assets/logos/dch.png" width="120"><br>
+<img src="https://github.com/geershatisaxena/IPL-Analysis-2008-2025/blob/main/deccan.jpg" width="120"><br>
 <b>Deccan Chargers</b>
 </td>
 
