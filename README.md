@@ -90,7 +90,7 @@ Through extensive exploration of ball-by-ball data, this analysis reveals how th
 </td>
 
 <td align="center">
-<img src="assets/logos/dc.png" width="120"><br>
+<img src="https://github.com/geershatisaxena/IPL-Analysis-2008-2025/blob/main/dc.png" width="120"><br>
 <b>Delhi Capitals</b>
 </td>
 
