@@ -57,9 +57,7 @@ Through extensive exploration of ball-by-ball data, this analysis reveals how th
 
 <td align="center">
 <img src="https://github.com/geershatisaxena/IPL-Analysis-2008-2025/blob/main/csk.jpg" width="120"><br>
-<h3 align="center">
-  <span style="color:#FDB913;">Chennai Super Kings</span>
-</h3>
+<b>Chennai Super Kings</b>
 </td>
 
 <td align="center">
