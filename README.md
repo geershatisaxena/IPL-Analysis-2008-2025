@@ -1,10 +1,10 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=320&color=gradient&customColorList=24,12,20,17,30,6,2&text=IPL%202008-2025%20DATA%20ANALYSIS&fontSize=50&fontColor=ffffff&animation=twinkling&fontAlignY=40&desc=Complete%20Exploratory%20Data%20Analysis%20of%20Indian%20Premier%20League&descAlignY=62"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=320&color=gradient&customColorList=24,12,20,17,30,6,2&text=🏏%20IPL%202008-2025%20DATA%20ANALYSIS&fontSize=50&fontColor=ffffff&animation=twinkling&fontAlignY=40&desc=Comprehensive%20Cricket%20Analytics%20%7C%20Exploratory%20Data%20Analysis&descAlignY=62"/>
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=30&duration=3000&pause=1000&color=FF0000&center=true&vCenter=true&multiline=true&repeat=true&width=1200&height=130&lines=🏏+INDIAN+PREMIER+LEAGUE+ANALYTICS;📊+IPL+2008+TO+2025+COMPLETE+EDA;🚀+Pandas+%7C+NumPy+%7C+Matplotlib+%7C+Seaborn;🔥+Teams+Players+Matches+Records+Insights"/>
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=30&duration=3000&pause=1000&color=FF0000&center=true&vCenter=true&multiline=true&repeat=true&width=1200&height=130&lines=🏆+INDIAN+PREMIER+LEAGUE+ANALYTICS;📊+18+SEASONS+OF+CRICKET+INTELLIGENCE;🚀+DATA+DRIVEN+INSIGHTS+AND+VISUALIZATIONS;🔥+TEAMS+PLAYERS+MATCHES+AND+RECORDS"/>
 
 <br>
 
@@ -16,10 +16,10 @@
 
 <br>
 
-<img src="https://img.shields.io/badge/Matches-2000+-orange?style=flat-square"/>
 <img src="https://img.shields.io/badge/Seasons-18-success?style=flat-square"/>
-<img src="https://img.shields.io/badge/Ball_by_Ball_Data-Available-blue?style=flat-square"/>
-<img src="https://img.shields.io/badge/Analysis-Professional-purple?style=flat-square"/>
+<img src="https://img.shields.io/badge/Matches-2000+-orange?style=flat-square"/>
+<img src="https://img.shields.io/badge/Ball%20by%20Ball-Analytics-blue?style=flat-square"/>
+<img src="https://img.shields.io/badge/Data%20Science-Project-purple?style=flat-square"/>
 
 </div>
 
@@ -29,497 +29,463 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=25&pause=1000&color=00FFFF&center=true&vCenter=true&width=1000&lines=Discovering+18+Years+of+IPL+History;Uncovering+Winning+Patterns+and+Player+Performance;Transforming+Cricket+Data+Into+Actionable+Insights"/>
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=24&pause=1000&color=00FFFF&center=true&vCenter=true&width=1000&lines=Exploring+18+Years+of+IPL+History;Uncovering+Winning+Patterns;Transforming+Cricket+Data+Into+Actionable+Insights"/>
 
 </div>
 
-The **Indian Premier League (IPL)** is one of the biggest T20 cricket tournaments in the world.
+The **Indian Premier League (IPL)** has evolved into one of the world's most competitive and entertaining cricket tournaments. This project presents a comprehensive analysis of IPL matches spanning **2008 to 2025**, leveraging advanced data analytics techniques to uncover hidden trends, player performances, franchise dominance, scoring patterns, and strategic insights.
 
-This project performs a **comprehensive Exploratory Data Analysis (EDA)** on IPL ball-by-ball data from **2008 to 2025** using:
-
-- 📊 Pandas
-- 🔢 NumPy
-- 📈 Matplotlib
-- 🎨 Seaborn
-
-The analysis explores:
-
-- Team performances
-- Match trends
-- Batting records
-- Bowling statistics
-- Run scoring patterns
-- Wicket distributions
-- Venue performance
-- Seasonal trends
-- Winning strategies
+Through extensive exploration of ball-by-ball data, this analysis reveals how the tournament has transformed over nearly two decades, highlighting the factors that contribute to success in modern T20 cricket.
 
 ---
 
-# 📂 Dataset Information
+# 🎯 Project Objectives
 
-## Dataset Columns
+### 🏏 Cricket Intelligence
 
-| Column | Description |
+- Analyze IPL evolution from 2008–2025
+- Understand long-term tournament trends
+- Explore scoring behavior across seasons
+- Identify winning strategies
+
+### 📊 Team Analytics
+
+- Compare franchise performances
+- Discover dominant teams
+- Evaluate consistency across seasons
+- Analyze batting and bowling strengths
+
+### 🌟 Player Analytics
+
+- Top run scorers
+- Leading wicket takers
+- Strike rate specialists
+- Boundary hitters
+- Match-winning performers
+
+### 📈 Performance Analysis
+
+- Run-scoring trends
+- Wicket distribution patterns
+- Powerplay efficiency
+- Middle-over stability
+- Death-over acceleration
+
+---
+
+# 📂 Dataset Snapshot
+
+| Metric | Description |
 |----------|-------------|
-| match_id | Unique Match Identifier |
-| date | Match Date |
-| match_type | League / Playoff |
-| event_name | IPL Season |
-| innings | Innings Number |
-| batting_team | Batting Team |
-| bowling_team | Bowling Team |
-| over | Over Number |
-| ball | Ball Number |
-| striker | Current Batter |
-| bowler | Current Bowler |
-| runs_off_bat | Runs Scored |
-| extras | Extra Runs |
-| wicket_type | Dismissal Type |
-| player_dismissed | Dismissed Player |
-| team_runs | Team Total Runs |
-| team_wicket | Team Wickets |
-| batter_runs | Individual Runs |
-| batter_balls | Balls Faced |
-| bowler_wicket | Bowler Wickets |
+| Seasons Covered | IPL 2008–2025 |
+| Data Type | Ball-by-Ball Match Data |
+| Match Coverage | League & Playoff Matches |
+| Analysis Scope | Batting, Bowling & Team Performance |
+| Granularity | Delivery-Level Records |
+| Visualization Tools | Professional Statistical Graphics |
 
 ---
 
-# 📊 Project Workflow
+# 🏆 Executive Dashboard
 
-```text
-Raw IPL Dataset
-        │
-        ▼
-Data Cleaning
-        │
-        ▼
-Feature Engineering
-        │
-        ▼
-Exploratory Data Analysis
-        │
-        ▼
-Visualization
-        │
-        ▼
-Insights & Findings
-        │
-        ▼
-Business & Cricket Intelligence
-```
+| KPI | Description |
+|------|-------------|
+| Total Matches | Complete tournament coverage |
+| Total Deliveries | Every ball recorded |
+| Total Runs | Aggregate scoring analysis |
+| Total Wickets | Dismissal insights |
+| Total Boundaries | Fours and sixes analysis |
+| Total Players | Individual performance tracking |
+| Total Teams | Franchise comparison |
+| Total Seasons | Eighteen years of history |
 
 ---
 
-# 📥 Import Libraries
+# 📈 Tournament Growth Analysis
 
-```python
-import pandas as pd
-import numpy as np
+![Tournament Growth](assets/tournament-growth.png)
 
-import matplotlib.pyplot as plt
-import seaborn as sns
+### Key Highlights
 
-sns.set_theme(
-    style="darkgrid",
-    palette="rainbow"
-)
-```
+✨ Significant growth in match volume across seasons
 
----
+✨ Increased scoring rates in modern IPL
 
-# 🚀 Data Loading
+✨ Expansion of franchises and competition
 
-```python
-df = pd.read_csv("ipl_2008_2025.csv")
+✨ Enhanced batting aggression over time
 
-df.head()
-```
+✨ Record-breaking performances becoming increasingly frequent
 
 ---
 
-# 🔍 Initial Exploration
+# 🏏 Franchise Performance Analytics
 
-## Dataset Shape
+![Franchise Performance](assets/franchise-performance.png)
 
-```python
-df.shape
-```
+### Analysis Areas
 
-## Dataset Information
-
-```python
-df.info()
-```
-
-## Missing Values
-
-```python
-df.isnull().sum()
-```
-
-## Statistical Summary
-
-```python
-df.describe()
-```
-
----
-
-# 🧹 Data Cleaning
-
-## Missing Values
-
-```python
-df.isnull().sum()
-```
-
-## Duplicate Records
-
-```python
-df.duplicated().sum()
-```
-
-## Convert Date Column
-
-```python
-df["date"] = pd.to_datetime(
-    df["date"]
-)
-```
-
-## Extract Season
-
-```python
-df["season"] = (
-    df["date"]
-    .dt.year
-)
-```
-
----
-
-# 📈 Exploratory Data Analysis
-
----
-
-# 🏏 Total Matches Per Season
-
-```python
-matches = (
-    df.groupby("season")
-      ["match_id"]
-      .nunique()
-)
-```
-
-![Matches Per Season](plots/matches_per_season.png)
+- Overall team success
+- Season-wise consistency
+- Batting strength comparison
+- Bowling effectiveness comparison
+- Win contribution trends
+- Historical performance evolution
 
 ### Insights
 
-✅ IPL expansion visible
+🏆 Most successful franchises establish long-term consistency
 
-✅ Increase in number of matches
+📈 Strong squads maintain performance across multiple seasons
 
-✅ Modern seasons contain significantly more games
+🔥 Successful teams excel in both batting and bowling departments
 
 ---
 
-# 🔥 Runs Scored Per Season
+# 🌟 Batting Performance Dashboard
 
-```python
-season_runs = (
-    df.groupby("season")
-      ["runs_off_bat"]
-      .sum()
-)
-```
+![Batting Dashboard](assets/batting-dashboard.png)
 
-![Season Runs](plots/runs_per_season.png)
+### Featured Analysis
+
+- Highest run scorers
+- Most boundaries
+- Strike rate leaders
+- Consistent performers
+- Match-winning innings
+- Partnership impact
+
+### Key Findings
+
+🚀 Batting strike rates have steadily increased
+
+🔥 Aggressive batting approaches dominate modern IPL
+
+🏏 Boundary frequency has grown significantly over recent seasons
+
+⭐ Elite batters consistently influence match outcomes
+
+---
+
+# 🎳 Bowling Performance Dashboard
+
+![Bowling Dashboard](assets/bowling-dashboard.png)
+
+### Featured Analysis
+
+- Leading wicket takers
+- Economy specialists
+- Death-over experts
+- Powerplay bowlers
+- Bowling consistency
+- Match-defining spells
+
+### Key Findings
+
+🔥 Wickets are concentrated during high-pressure phases
+
+🎯 Economy control remains crucial for success
+
+⚡ Death-over specialists have significant impact
+
+🏆 Successful teams maintain balanced bowling attacks
+
+---
+
+# ⚡ Over-Wise Match Analysis
+
+![Over Analysis](assets/over-analysis.png)
+
+### Phase Breakdown
+
+| Match Phase | Characteristics |
+|-------------|----------------|
+| Powerplay Overs | Aggressive scoring opportunities |
+| Middle Overs | Consolidation and strategic control |
+| Death Overs | Maximum acceleration and pressure |
+
+### Observations
+
+🚀 Highest scoring rates occur during death overs
+
+🔥 Powerplays strongly influence innings momentum
+
+📊 Teams increasingly prioritize aggressive finishes
+
+---
+
+# 📍 Venue Intelligence
+
+![Venue Analysis](assets/venue-analysis.png)
+
+### Ground Impact Analysis
+
+- High-scoring venues
+- Bowling-friendly venues
+- Average first innings scores
+- Chasing success rates
+- Home advantage impact
+
+### Insights
+
+🏟️ Venue conditions significantly affect match outcomes
+
+📈 Certain stadiums consistently produce high totals
+
+🔥 Ground dimensions influence scoring strategies
+
+---
+
+# 🌈 Seasonal Trends
+
+![Seasonal Trends](assets/seasonal-trends.png)
+
+### Long-Term Evolution
+
+- Increasing scoring rates
+- Batting aggression growth
+- Tactical evolution
+- Impact player emergence
+- Franchise competitiveness
+
+### Major Trends
+
+📊 IPL has become progressively batting-friendly
+
+🚀 Run rates continue to rise season after season
+
+🏏 Modern teams adopt more aggressive approaches
+
+---
+
+# 🔥 Boundary Analysis
+
+![Boundary Analysis](assets/boundary-analysis.png)
+
+### Areas Explored
+
+- Total fours per season
+- Total sixes per season
+- Boundary percentages
+- Team boundary comparison
+- Individual boundary leaders
+
+### Insights
+
+⚡ Six-hitting frequency has increased significantly
+
+🔥 Boundary dependency is a key factor in winning matches
+
+🏆 Explosive batting units consistently outperform opponents
+
+---
+
+# 📊 Correlation Analysis
+
+![Correlation Heatmap](assets/correlation-heatmap.png)
+
+### Key Relationships
+
+- Runs and match outcomes
+- Batting partnerships
+- Wickets and scoring rate
+- Team totals and victory margins
+- Player contribution impact
 
 ### Findings
 
-🏏 Batting dominance increased over time
+📈 Strong positive relationships among scoring metrics
 
-🏏 Modern IPL seasons produce larger totals
+🎯 Partnerships contribute significantly to team success
 
----
-
-# 🎯 Most Successful Teams
-
-```python
-team_runs = (
-    df.groupby("batting_team")
-      ["runs_off_bat"]
-      .sum()
-      .sort_values(
-          ascending=False
-      )
-)
-```
-
-![Team Runs](plots/team_runs.png)
+⚡ Momentum shifts are reflected through scoring acceleration
 
 ---
 
-# 🌟 Top Run Scorers
+# 🏆 Record Book
 
-```python
-top_batters = (
-    df.groupby("striker")
-      ["runs_off_bat"]
-      .sum()
-      .nlargest(15)
-)
-```
+## 🥇 Batting Records
 
-![Top Batters](plots/top_batters.png)
+- Highest Individual Score
+- Most Career Runs
+- Fastest Fifty
+- Fastest Century
+- Most Boundaries
+- Most Match-Winning Innings
 
 ---
 
-# 🚀 Highest Strike Rate Batters
+## 🥇 Bowling Records
 
-```python
-strike_rate = (
-    df.groupby("striker")
-      .agg({
-          "runs_off_bat":"sum",
-          "ball":"count"
-      })
-)
-```
-
-![Strike Rate](plots/strike_rate.png)
+- Most Career Wickets
+- Best Bowling Figures
+- Best Economy Rate
+- Most Dot Balls
+- Most Match-Winning Spells
 
 ---
 
-# ⚡ Top Boundary Hitters
+## 🥇 Team Records
 
-```python
-fours = (
-    df[df["runs_off_bat"] == 4]
-)
-```
-
-```python
-sixes = (
-    df[df["runs_off_bat"] == 6]
-)
-```
-
-![Boundary Analysis](plots/boundary_analysis.png)
+- Highest Team Total
+- Lowest Team Total
+- Largest Victory Margin
+- Highest Successful Chase
+- Longest Winning Streak
 
 ---
 
-# 🎳 Highest Wicket Takers
+# 🎯 Strategic Insights
 
-```python
-top_bowlers = (
-    df.groupby("bowler")
-      ["bowler_wicket"]
-      .sum()
-      .nlargest(15)
-)
-```
+### Winning Formula
 
-![Top Bowlers](plots/top_bowlers.png)
+✅ Strong Powerplay Foundation
 
----
+✅ Stable Middle Overs
 
-# 💀 Wicket Types Analysis
+✅ Explosive Death Overs
 
-```python
-sns.countplot(
-    data=df,
-    x="wicket_type"
-)
-```
+✅ Effective Death Bowling
 
-![Dismissals](plots/wicket_types.png)
+✅ Partnership Building
+
+✅ Consistent Team Selection
 
 ---
 
-# 📊 Over Wise Run Distribution
+### Modern IPL Trends
 
-```python
-over_runs = (
-    df.groupby("over")
-      ["runs_off_bat"]
-      .sum()
-)
-```
+🚀 Increased batting aggression
 
-![Over Runs](plots/over_runs.png)
+🔥 Higher average team totals
 
-### Observation
+⚡ Faster scoring rates
 
-🔥 Death overs produce maximum scoring.
+📈 Data-driven decision making
+
+🏆 Greater emphasis on finishing ability
 
 ---
 
-# 🌈 Powerplay vs Middle vs Death Overs
+# 📸 Visualization Gallery
 
-```python
-def phase(over):
+## Tournament Growth
 
-    if over <= 6:
-        return "Powerplay"
-
-    elif over <= 15:
-        return "Middle"
-
-    return "Death"
-```
-
-![Phase Analysis](plots/phases.png)
-
----
-
-# 📍 Venue Analysis
-
-```python
-venue_runs = (
-    df.groupby("venue")
-      ["runs_off_bat"]
-      .mean()
-)
-```
-
-![Venue Analysis](plots/venue_analysis.png)
-
----
-
-# 🔥 Correlation Heatmap
-
-```python
-corr = df.select_dtypes(
-    include=np.number
-).corr()
-```
-
-```python
-plt.figure(figsize=(12,8))
-
-sns.heatmap(
-    corr,
-    cmap="rainbow",
-    annot=True
-)
-```
-
-![Heatmap](plots/heatmap.png)
-
----
-
-# 🌟 Advanced Visualizations
-
-## Pairplot
-
-```python
-sns.pairplot(
-    df.sample(5000)
-)
-```
-
-![Pairplot](plots/pairplot.png)
-
----
-
-## Run Distribution
-
-```python
-sns.histplot(
-    data=df,
-    x="runs_off_bat",
-    kde=True
-)
-```
-
-![Run Distribution](plots/run_distribution.png)
+![Growth](assets/tournament-growth.png)
 
 ---
 
 ## Team Comparison
 
-```python
-sns.boxplot(
-    data=df,
-    x="batting_team",
-    y="runs_off_bat"
-)
-```
-
-![Team Comparison](plots/team_comparison.png)
+![Teams](assets/team-comparison.png)
 
 ---
 
-# 🏆 Key Insights
+## Top Run Scorers
 
-### 🔥 Batting
-
-- Top batters scored more than 7000 IPL runs.
-- Strike rates increased significantly after 2018.
-- Boundary percentage has continuously increased.
-
-### 🎳 Bowling
-
-- Fast bowlers dominate wicket-taking charts.
-- Death overs account for majority of wickets.
-
-### 🏏 Teams
-
-- Certain franchises consistently dominate.
-- Home venues influence scoring rates.
-
-### 📈 Trends
-
-- IPL scoring rates increased year after year.
-- Average innings totals are at historical highs.
+![Batters](assets/top-run-scorers.png)
 
 ---
 
-# 🎨 Visualization Gallery
+## Top Wicket Takers
 
-| Visualization | Description |
-|--------------|-------------|
-| Matches Per Season | Tournament growth |
-| Team Runs | Franchise comparison |
-| Top Batters | Highest run scorers |
-| Top Bowlers | Wicket leaders |
-| Heatmap | Correlations |
-| Venue Analysis | Ground impact |
-| Run Distribution | Scoring trends |
-| Phase Analysis | Powerplay vs Death Overs |
+![Bowlers](assets/top-wicket-takers.png)
 
 ---
 
-# 🤖 Machine Learning Opportunities
+## Boundary Analysis
 
-### Future Enhancements
+![Boundaries](assets/boundary-analysis.png)
 
-- Match Winner Prediction
-- Player Performance Forecasting
-- Run Prediction Models
-- Wicket Probability Models
-- Fantasy Cricket Recommendation System
+---
+
+## Venue Insights
+
+![Venue](assets/venue-insights.png)
+
+---
+
+## Seasonal Trends
+
+![Season Trends](assets/season-trends.png)
+
+---
+
+## Correlation Heatmap
+
+![Heatmap](assets/correlation-heatmap.png)
+
+---
+
+# 🤖 Future Scope
+
+### Advanced Analytics
+
+- Match Outcome Prediction
+- Run Forecasting Models
+- Player Performance Prediction
 - Team Strength Index
+- Win Probability Modeling
+
+### Machine Learning Applications
+
+- Fantasy Cricket Recommendation Engine
+- Match Simulation System
+- Dynamic Team Ranking Model
+- Auction Value Prediction
+- Performance Forecasting Dashboard
+
+### Interactive Dashboard Development
+
+- Streamlit Dashboard
+- Power BI Reporting
+- Tableau Analytics
+- Interactive Web Applications
 
 ---
 
-# 🛠 Tech Stack
+# 🛠 Technology Stack
 
 <div align="center">
 
-| Technology | Usage |
-|------------|-------|
-| Python | Programming |
-| Pandas | Data Processing |
-| NumPy | Numerical Computing |
+| Technology | Purpose |
+|------------|---------|
+| Python | Data Processing |
+| Pandas | Data Manipulation |
+| NumPy | Numerical Analysis |
 | Matplotlib | Visualization |
-| Seaborn | Statistical Visualization |
-| Jupyter Notebook | Development |
+| Seaborn | Statistical Graphics |
+| Jupyter Notebook | Exploratory Analysis |
 
 </div>
+
+---
+
+# 📋 Project Deliverables
+
+✅ Comprehensive Data Cleaning
+
+✅ Exploratory Data Analysis
+
+✅ Statistical Insights
+
+✅ Team Performance Analytics
+
+✅ Player Performance Analytics
+
+✅ Interactive Visual Storytelling
+
+✅ Professional Visualization Dashboard
+
+✅ Strategic Cricket Intelligence
+
+---
+
+# 🎖 Conclusion
+
+The IPL has undergone a remarkable transformation from 2008 to 2025, evolving into a tournament characterized by explosive batting, innovative strategies, and data-driven decision-making. Through detailed analysis of ball-by-ball data, this project uncovers the patterns that define successful teams, elite players, and winning approaches.
+
+The findings demonstrate how modern cricket continues to evolve, providing valuable insights into performance optimization, player evaluation, and competitive strategy within one of the world's premier sporting leagues.
 
 ---
 
@@ -527,8 +493,8 @@ sns.boxplot(
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=250&section=footer&color=gradient&customColorList=24,12,20,17,30,6,2"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=800&size=28&duration=3000&pause=1000&color=39FF14&center=true&vCenter=true&width=1200&lines=THANK+YOU+FOR+VISITING;IPL+2008-2025+DATA+ANALYSIS;DATA+DRIVEN+CRICKET+INTELLIGENCE;PANDAS+•+NUMPY+•+MATPLOTLIB+•+SEABORN"/>
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=28&duration=3000&pause=1000&color=39FF14&center=true&vCenter=true&width=1200&lines=🏏+IPL+2008-2025+DATA+ANALYSIS;📊+CRICKET+INTELLIGENCE+THROUGH+DATA;🚀+PANDAS+•+NUMPY+•+MATPLOTLIB+•+SEABORN;⭐+THANK+YOU+FOR+VISITING"/>
 
-### ⭐ Star this repository if you found it useful ⭐
+### ⭐ If you found this project useful, consider giving it a star ⭐
 
 </div>
