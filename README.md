@@ -85,7 +85,7 @@ Through extensive exploration of ball-by-ball data, this analysis reveals how th
 <tr>
 
 <td align="center">
-<img src="assets/logos/rr.png" width="120"><br>
+<img src="https://github.com/geershatisaxena/IPL-Analysis-2008-2025/blob/main/rr.png" width="120"><br>
 <b>Rajasthan Royals</b>
 </td>
 
