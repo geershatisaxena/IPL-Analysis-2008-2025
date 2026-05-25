@@ -1,166 +1,534 @@
-🏏 IPL Data Analysis (2008 - 2025)
+<div align="center">
 
-An enterprise-grade Exploratory Data Analysis (EDA) of the Indian Premier League (IPL) matches, player metrics, and team trends spanning 18 seasons (2008 to 2025). This repository implements advanced data wrangling, feature engineering, and high-impact statistical visualizations.
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=320&color=gradient&customColorList=24,12,20,17,30,6,2&text=IPL%202008-2025%20DATA%20ANALYSIS&fontSize=50&fontColor=ffffff&animation=twinkling&fontAlignY=40&desc=Complete%20Exploratory%20Data%20Analysis%20of%20Indian%20Premier%20League&descAlignY=62"/>
 
-📌 Features & Core Insights
+<br>
 
-Team Domination Matrix: Win/loss ratio profiling, championship conversions, and home-ground advantage trends.
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=30&duration=3000&pause=1000&color=FF0000&center=true&vCenter=true&multiline=true&repeat=true&width=1200&height=130&lines=🏏+INDIAN+PREMIER+LEAGUE+ANALYTICS;📊+IPL+2008+TO+2025+COMPLETE+EDA;🚀+Pandas+%7C+NumPy+%7C+Matplotlib+%7C+Seaborn;🔥+Teams+Players+Matches+Records+Insights"/>
 
-Player Performance Modeling: Batting Strike Rate vs. Consistency indexes, Bowler Economy vs. Wickets maps.
+<br>
 
-Contextual Factors: Multi-variable analysis on Toss Influence, Venue scoring patterns, and DLS (Duckworth-Lewis-Stern) impact.
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
+<img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge"/>
 
-Temporal Trends: Tracking how average first-innings scores and team strategy (chasing vs. defending) have evolved from 2008 to 2025.
+<br>
 
-💻 Code Showcase: Generating Toss Decision Trends
+<img src="https://img.shields.io/badge/Matches-2000+-orange?style=flat-square"/>
+<img src="https://img.shields.io/badge/Seasons-18-success?style=flat-square"/>
+<img src="https://img.shields.io/badge/Ball_by_Ball_Data-Available-blue?style=flat-square"/>
+<img src="https://img.shields.io/badge/Analysis-Professional-purple?style=flat-square"/>
 
-The following production-ready Python script is used to analyze and visualize how toss decisions have evolved over the years. This can be executed directly from your local setup:
+</div>
 
-import os
+---
+
+# 🌈 Overview
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=25&pause=1000&color=00FFFF&center=true&vCenter=true&width=1000&lines=Discovering+18+Years+of+IPL+History;Uncovering+Winning+Patterns+and+Player+Performance;Transforming+Cricket+Data+Into+Actionable+Insights"/>
+
+</div>
+
+The **Indian Premier League (IPL)** is one of the biggest T20 cricket tournaments in the world.
+
+This project performs a **comprehensive Exploratory Data Analysis (EDA)** on IPL ball-by-ball data from **2008 to 2025** using:
+
+- 📊 Pandas
+- 🔢 NumPy
+- 📈 Matplotlib
+- 🎨 Seaborn
+
+The analysis explores:
+
+- Team performances
+- Match trends
+- Batting records
+- Bowling statistics
+- Run scoring patterns
+- Wicket distributions
+- Venue performance
+- Seasonal trends
+- Winning strategies
+
+---
+
+# 📂 Dataset Information
+
+## Dataset Columns
+
+| Column | Description |
+|----------|-------------|
+| match_id | Unique Match Identifier |
+| date | Match Date |
+| match_type | League / Playoff |
+| event_name | IPL Season |
+| innings | Innings Number |
+| batting_team | Batting Team |
+| bowling_team | Bowling Team |
+| over | Over Number |
+| ball | Ball Number |
+| striker | Current Batter |
+| bowler | Current Bowler |
+| runs_off_bat | Runs Scored |
+| extras | Extra Runs |
+| wicket_type | Dismissal Type |
+| player_dismissed | Dismissed Player |
+| team_runs | Team Total Runs |
+| team_wicket | Team Wickets |
+| batter_runs | Individual Runs |
+| batter_balls | Balls Faced |
+| bowler_wicket | Bowler Wickets |
+
+---
+
+# 📊 Project Workflow
+
+```text
+Raw IPL Dataset
+        │
+        ▼
+Data Cleaning
+        │
+        ▼
+Feature Engineering
+        │
+        ▼
+Exploratory Data Analysis
+        │
+        ▼
+Visualization
+        │
+        ▼
+Insights & Findings
+        │
+        ▼
+Business & Cricket Intelligence
+```
+
+---
+
+# 📥 Import Libraries
+
+```python
 import pandas as pd
+import numpy as np
+
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Configure global visualization style
-sns.set_theme(style="whitegrid")
-plt.rcParams.update({
-    'font.size': 12,
-    'axes.labelsize': 14,
-    'axes.titlesize': 16,
-    'xtick.labelsize': 11,
-    'ytick.labelsize': 11,
-    'figure.figsize': (14, 7)
-})
+sns.set_theme(
+    style="darkgrid",
+    palette="rainbow"
+)
+```
 
-def plot_toss_trends(filepath):
-    """
-    Loads IPL match data and saves a stacked percentage bar plot of toss trends.
-    """
-    if not os.path.exists(filepath):
-        raise FileNotFoundError(f"Dataset not found at {filepath}")
-        
-    # Read the match-by-match metadata
-    df = pd.read_csv(filepath)
-    
-    # Calculate percentage distribution of toss decisions per season
-    toss_pivot = (
-        df.groupby('season')['toss_decision']
-        .value_counts(normalize=True)
-        .unstack() * 100
-    )
-    
-    # Plot configuration
-    fig, ax = plt.subplots()
-    colors = ['#1f77b4', '#ff7f0e'] # High-contrast professional palette
-    
-    toss_pivot.plot(
-        kind='bar', 
-        stacked=True, 
-        color=colors, 
-        width=0.75, 
-        ax=ax, 
-        edgecolor='black', 
-        linewidth=0.7
-    )
-    
-    # Customizing axes and titles
-    ax.set_title("IPL Toss Decision Evolution (2008 - 2025)", pad=20, weight='bold')
-    ax.set_ylabel("Decision Percentage (%)")
-    ax.set_xlabel("IPL Season")
-    ax.legend(["Field First", "Bat First"], bbox_to_anchor=(1.02, 1), loc='upper left')
-    
-    # Add percentage labels directly onto the bar elements
-    for container in ax.containers:
-        ax.bar_label(container, fmt='%.1f%%', label_type='center', color='white', weight='bold', fontsize=9)
-        
-    plt.tight_layout()
-    
-    # Save visualization to output directory
-    os.makedirs('plots', exist_ok=True)
-    output_path = 'plots/toss_decision_trends.png'
-    plt.savefig(output_path, dpi=300)
-    print(f"[✓] Toss trend visualization successfully exported to: {output_path}")
-    plt.close()
+---
 
-if __name__ == "__main__":
-    plot_toss_trends('data/ipl_matches_2008_2025.csv')
+# 🚀 Data Loading
 
+```python
+df = pd.read_csv("ipl_2008_2025.csv")
 
-📂 Repository Architecture
+df.head()
+```
 
-├── data/
-│   ├── ipl_matches_2008_2025.csv       # Match-level details (Teams, Toss, Results, Venue)
-│   └── ipl_deliveries_2008_2025.csv    # Ball-by-ball performance metrics
-├── notebooks/
-│   └── ipl_exploratory_analysis.ipynb  # Documented Jupyter notebooks detailing EDA workflow
-├── plots/                              # Generated high-resolution static graphs
-│   ├── toss_decision_trends.png
-│   └── bowler_economy_vs_strike.png
-├── requirements.txt                    # Python environment dependencies
-└── README.md                           # Documentation
+---
 
+# 🔍 Initial Exploration
 
-🛠️ Setup & Installation
+## Dataset Shape
 
-Prerequisites
+```python
+df.shape
+```
 
-Python 3.9 or higher installed.
+## Dataset Information
 
-Installation Steps
+```python
+df.info()
+```
 
-Clone the repository:
+## Missing Values
 
-git clone https://github.com/your-username/ipl-data-analysis-2008-2025.git
-cd ipl-data-analysis-2008-2025
+```python
+df.isnull().sum()
+```
 
+## Statistical Summary
 
-Establish a virtual environment:
+```python
+df.describe()
+```
 
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+---
 
+# 🧹 Data Cleaning
 
-Install exact dependencies:
+## Missing Values
 
-pip install --upgrade pip
-pip install -r requirements.txt
+```python
+df.isnull().sum()
+```
 
+## Duplicate Records
 
-Execute the analysis scripts:
+```python
+df.duplicated().sum()
+```
 
-python scripts/generate_plots.py
+## Convert Date Column
 
+```python
+df["date"] = pd.to_datetime(
+    df["date"]
+)
+```
 
-📊 Sample Output Metrics
+## Extract Season
 
-A snapshot of the computed insights available in the notebook:
+```python
+df["season"] = (
+    df["date"]
+    .dt.year
+)
+```
 
-Metric
+---
 
-Historical Value / Team
+# 📈 Exploratory Data Analysis
 
-Season / Player
+---
 
-Highest Team Scoring Innings
+# 🏏 Total Matches Per Season
 
-287/3 (SRH vs RCB)
+```python
+matches = (
+    df.groupby("season")
+      ["match_id"]
+      .nunique()
+)
+```
 
-2024
+![Matches Per Season](plots/matches_per_season.png)
 
-Most IPL MVP Titles
+### Insights
 
-Shane Watson & Sunil Narine (2)
+✅ IPL expansion visible
 
-All-Time
+✅ Increase in number of matches
 
-Most Successful Toss Strategy
+✅ Modern seasons contain significantly more games
 
-Field First (Win Rate: ~54.2%)
+---
 
-All-Time Trend
+# 🔥 Runs Scored Per Season
 
-🤝 Contributing & License
+```python
+season_runs = (
+    df.groupby("season")
+      ["runs_off_bat"]
+      .sum()
+)
+```
 
-Feel free to fork this project, open issues, or submit Pull Requests for enhancements (such as predictive modeling for IPL 2026/2027 matches using Scikit-Learn).
+![Season Runs](plots/runs_per_season.png)
 
-Distributed under the MIT License. See LICENSE for more information.
+### Findings
+
+🏏 Batting dominance increased over time
+
+🏏 Modern IPL seasons produce larger totals
+
+---
+
+# 🎯 Most Successful Teams
+
+```python
+team_runs = (
+    df.groupby("batting_team")
+      ["runs_off_bat"]
+      .sum()
+      .sort_values(
+          ascending=False
+      )
+)
+```
+
+![Team Runs](plots/team_runs.png)
+
+---
+
+# 🌟 Top Run Scorers
+
+```python
+top_batters = (
+    df.groupby("striker")
+      ["runs_off_bat"]
+      .sum()
+      .nlargest(15)
+)
+```
+
+![Top Batters](plots/top_batters.png)
+
+---
+
+# 🚀 Highest Strike Rate Batters
+
+```python
+strike_rate = (
+    df.groupby("striker")
+      .agg({
+          "runs_off_bat":"sum",
+          "ball":"count"
+      })
+)
+```
+
+![Strike Rate](plots/strike_rate.png)
+
+---
+
+# ⚡ Top Boundary Hitters
+
+```python
+fours = (
+    df[df["runs_off_bat"] == 4]
+)
+```
+
+```python
+sixes = (
+    df[df["runs_off_bat"] == 6]
+)
+```
+
+![Boundary Analysis](plots/boundary_analysis.png)
+
+---
+
+# 🎳 Highest Wicket Takers
+
+```python
+top_bowlers = (
+    df.groupby("bowler")
+      ["bowler_wicket"]
+      .sum()
+      .nlargest(15)
+)
+```
+
+![Top Bowlers](plots/top_bowlers.png)
+
+---
+
+# 💀 Wicket Types Analysis
+
+```python
+sns.countplot(
+    data=df,
+    x="wicket_type"
+)
+```
+
+![Dismissals](plots/wicket_types.png)
+
+---
+
+# 📊 Over Wise Run Distribution
+
+```python
+over_runs = (
+    df.groupby("over")
+      ["runs_off_bat"]
+      .sum()
+)
+```
+
+![Over Runs](plots/over_runs.png)
+
+### Observation
+
+🔥 Death overs produce maximum scoring.
+
+---
+
+# 🌈 Powerplay vs Middle vs Death Overs
+
+```python
+def phase(over):
+
+    if over <= 6:
+        return "Powerplay"
+
+    elif over <= 15:
+        return "Middle"
+
+    return "Death"
+```
+
+![Phase Analysis](plots/phases.png)
+
+---
+
+# 📍 Venue Analysis
+
+```python
+venue_runs = (
+    df.groupby("venue")
+      ["runs_off_bat"]
+      .mean()
+)
+```
+
+![Venue Analysis](plots/venue_analysis.png)
+
+---
+
+# 🔥 Correlation Heatmap
+
+```python
+corr = df.select_dtypes(
+    include=np.number
+).corr()
+```
+
+```python
+plt.figure(figsize=(12,8))
+
+sns.heatmap(
+    corr,
+    cmap="rainbow",
+    annot=True
+)
+```
+
+![Heatmap](plots/heatmap.png)
+
+---
+
+# 🌟 Advanced Visualizations
+
+## Pairplot
+
+```python
+sns.pairplot(
+    df.sample(5000)
+)
+```
+
+![Pairplot](plots/pairplot.png)
+
+---
+
+## Run Distribution
+
+```python
+sns.histplot(
+    data=df,
+    x="runs_off_bat",
+    kde=True
+)
+```
+
+![Run Distribution](plots/run_distribution.png)
+
+---
+
+## Team Comparison
+
+```python
+sns.boxplot(
+    data=df,
+    x="batting_team",
+    y="runs_off_bat"
+)
+```
+
+![Team Comparison](plots/team_comparison.png)
+
+---
+
+# 🏆 Key Insights
+
+### 🔥 Batting
+
+- Top batters scored more than 7000 IPL runs.
+- Strike rates increased significantly after 2018.
+- Boundary percentage has continuously increased.
+
+### 🎳 Bowling
+
+- Fast bowlers dominate wicket-taking charts.
+- Death overs account for majority of wickets.
+
+### 🏏 Teams
+
+- Certain franchises consistently dominate.
+- Home venues influence scoring rates.
+
+### 📈 Trends
+
+- IPL scoring rates increased year after year.
+- Average innings totals are at historical highs.
+
+---
+
+# 🎨 Visualization Gallery
+
+| Visualization | Description |
+|--------------|-------------|
+| Matches Per Season | Tournament growth |
+| Team Runs | Franchise comparison |
+| Top Batters | Highest run scorers |
+| Top Bowlers | Wicket leaders |
+| Heatmap | Correlations |
+| Venue Analysis | Ground impact |
+| Run Distribution | Scoring trends |
+| Phase Analysis | Powerplay vs Death Overs |
+
+---
+
+# 🤖 Machine Learning Opportunities
+
+### Future Enhancements
+
+- Match Winner Prediction
+- Player Performance Forecasting
+- Run Prediction Models
+- Wicket Probability Models
+- Fantasy Cricket Recommendation System
+- Team Strength Index
+
+---
+
+# 🛠 Tech Stack
+
+<div align="center">
+
+| Technology | Usage |
+|------------|-------|
+| Python | Programming |
+| Pandas | Data Processing |
+| NumPy | Numerical Computing |
+| Matplotlib | Visualization |
+| Seaborn | Statistical Visualization |
+| Jupyter Notebook | Development |
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=250&section=footer&color=gradient&customColorList=24,12,20,17,30,6,2"/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=800&size=28&duration=3000&pause=1000&color=39FF14&center=true&vCenter=true&width=1200&lines=THANK+YOU+FOR+VISITING;IPL+2008-2025+DATA+ANALYSIS;DATA+DRIVEN+CRICKET+INTELLIGENCE;PANDAS+•+NUMPY+•+MATPLOTLIB+•+SEABORN"/>
+
+### ⭐ Star this repository if you found it useful ⭐
+
+</div>
