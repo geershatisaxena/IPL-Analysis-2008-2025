@@ -100,7 +100,7 @@ Through extensive exploration of ball-by-ball data, this analysis reveals how th
 </td>
 
 <td align="center">
-<img src="assets/logos/gt.png" width="120"><br>
+<img src="https://github.com/geershatisaxena/IPL-Analysis-2008-2025/blob/main/gt.jpg" width="120"><br>
 <b>Gujarat Titans</b>
 </td>
 
