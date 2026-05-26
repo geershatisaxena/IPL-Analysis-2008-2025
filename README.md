@@ -714,7 +714,9 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=260&section=footer&color=gradient&customColorList=0,2,6,11,17,20,24,30&text=⭐%20Thank%20You%20for%20Visiting!&fontSize=40&fontColor=ffffff&animation=twinkling&fontAlignY=55"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=24&duration=2800&pause=900&color=39FF14&center=true&vCenter=true&width=1200&lines=🏏+IPL+2008-2025+DATA+ANALYSIS;📊+CRICKET+INTELLIGENCE+THROUGH+DATA;🚀+PANDAS+•+NUMPY+•+MATPLOTLIB+•+SEABORN;⭐+STAR+THIS+REPO+IF+YOU+FOUND+IT+USEFUL!"/>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=28&duration=2500&pause=1000&color=00F7FF&center=true&vCenter=true&width=1400&height=90&lines=%F0%9F%8F%86+INDIAN+PREMIER+LEAGUE+ANALYTICS;%F0%9F%93%8A+18+SEASONS+OF+CRICKET+DATA;%F0%9F%9A%80+POWERED+BY+PANDAS+NUMPY+MATPLOTLIB+SEABORN;%F0%9F%94%A5+TEAMS+PLAYERS+MATCHES+RECORDS+INSIGHTS;%E2%AD%90+STAR+THE+REPO+IF+YOU+LOVE+CRICKET+ANALYTICS" alt="Typing SVG" />
+</p>
 
 <br/>
 
