@@ -211,7 +211,7 @@ Through extensive exploration of ball-by-ball data, this analysis reveals how th
 
 # 🎯 Wicket Analysis & Trends
 
-![Wicket Analysis](assets/wicket-analysis.png)
+![Wicket Analysis](https://github.com/geershatisaxena/IPL-Analysis-2008-2025/blob/main/wicket.png)
 
 ### Key Highlights
 
