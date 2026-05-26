@@ -559,20 +559,28 @@ Through extensive exploration of ball-by-ball data, this analysis reveals how th
 
 # 🎖 Conclusion
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=20&duration=4500&pause=1000&color=00E5FF&center=true&vCenter=true&multiline=true&repeat=true&width=1200&height=120&lines=The+IPL+has+undergone+a+remarkable+transformation+from+2008+to+2025%2C;evolving+into+a+tournament+characterized+by+explosive+batting%2C;innovative+strategies%2C+and+data-driven+decision-making." />
+<p align="justify">
+  <span style="color:#00E5FF;">
+    The IPL has undergone a remarkable transformation from 2008 to 2025,
+    evolving into a tournament characterized by explosive batting,
+    innovative strategies, and data-driven decision-making.
+  </span>
+  <span style="color:#FFD700;">
+    Through detailed analysis of ball-by-ball data, this project uncovers
+    the patterns that define successful teams, elite players, and winning
+    approaches.
+  </span>
 </p>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=20&duration=4500&pause=1000&color=FF6B6B&center=true&vCenter=true&multiline=true&repeat=true&width=1200&height=120&lines=Through+detailed+analysis+of+ball-by-ball+data%2C;this+project+uncovers+the+patterns+that+define+successful+teams%2C;elite+players%2C+and+winning+approaches." />
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=20&duration=4500&pause=1000&color=FFD700&center=true&vCenter=true&multiline=true&repeat=true&width=1200&height=120&lines=The+findings+demonstrate+how+modern+cricket+continues+to+evolve%2C;providing+valuable+insights+into+performance+optimization%2C;player+evaluation%2C+and+competitive+strategy." />
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=20&duration=4500&pause=1000&color=39FF14&center=true&vCenter=true&multiline=true&repeat=true&width=1200&height=120&lines=Within+one+of+the+world%27s+premier+sporting+leagues." />
+<p align="justify">
+  <span style="color:#FF6B6B;">
+    The findings demonstrate how modern cricket continues to evolve,
+    providing valuable insights into performance optimization,
+    player evaluation, and competitive strategy
+  </span>
+  <span style="color:#39FF14;">
+    within one of the world's premier sporting leagues.
+  </span>
 </p>
 ---
 
