@@ -9,8 +9,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=340&color=gradient&customColorList=0,2,6,11,17,20,24,30&text=🏏%20IPL%202008–2025&fontSize=62&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=DATA%20ANALYSIS%20%7C%20Cricket%20Intelligence%20Across%2018%20Seasons&descAlignY=60&descSize=22"/>
 
 <!-- Animated Title SVG -->
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=28&duration=2800&pause=900&color=FF0000&center=true&vCenter=true&repeat=true&width=1200&height=80&lines=INDIAN+PREMIER+LEAGUE+ANALYTICS;18+SEASONS+OF+CRICKET+INTELLIGENCE;DATA-DRIVEN+INSIGHTS+AND+VISUALIZATIONS;TEAMS+PLAYERS+MATCHES+AND+RECORDS" alt="Typing SVG" />
-<br/>
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=30&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=1200&height=80&lines=INDIAN+PREMIER+LEAGUE+ANALYTICS;18+SEASONS+OF+CRICKET+INTELLIGENCE;DATA+SCIENCE+MEETS+CRICKET;MATCHES+PLAYERS+TEAMS+RECORDS" alt="Typing SVG" />
 
 <!-- Tech Badges -->
 <p>
