@@ -559,10 +559,13 @@ Through extensive exploration of ball-by-ball data, this analysis reveals how th
 
 # 🎖 Conclusion
 
+<p align="justify">
 The IPL has undergone a remarkable transformation from 2008 to 2025, evolving into a tournament characterized by explosive batting, innovative strategies, and data-driven decision-making. Through detailed analysis of ball-by-ball data, this project uncovers the patterns that define successful teams, elite players, and winning approaches.
+</p>
 
+<p align="justify">
 The findings demonstrate how modern cricket continues to evolve, providing valuable insights into performance optimization, player evaluation, and competitive strategy within one of the world's premier sporting leagues.
-
+</p>
 ---
 
 <div align="center">
