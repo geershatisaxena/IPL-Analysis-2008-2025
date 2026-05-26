@@ -386,7 +386,7 @@ Through extensive exploration of ball-by-ball data, this analysis reveals how th
 
 # 🔥 Boundary Analysis
 
-![Boundary Analysis](assets/boundary-analysis.png)
+
 
 ### Areas Explored
 
@@ -408,7 +408,7 @@ Through extensive exploration of ball-by-ball data, this analysis reveals how th
 
 # 📊 Correlation Analysis
 
-![Correlation Heatmap](assets/correlation-heatmap.png)
+
 
 ### Key Relationships
 
@@ -490,56 +490,6 @@ Through extensive exploration of ball-by-ball data, this analysis reveals how th
 📈 Data-driven decision making
 
 🏆 Greater emphasis on finishing ability
-
----
-
-# 📸 Visualization Gallery
-
-## Tournament Growth
-
-![Growth](assets/tournament-growth.png)
-
----
-
-## Team Comparison
-
-![Teams](assets/team-comparison.png)
-
----
-
-## Top Run Scorers
-
-![Batters](assets/top-run-scorers.png)
-
----
-
-## Top Wicket Takers
-
-![Bowlers](assets/top-wicket-takers.png)
-
----
-
-## Boundary Analysis
-
-![Boundaries](assets/boundary-analysis.png)
-
----
-
-## Venue Insights
-
-![Venue](assets/venue-insights.png)
-
----
-
-## Seasonal Trends
-
-![Season Trends](assets/season-trends.png)
-
----
-
-## Correlation Heatmap
-
-![Heatmap](assets/correlation-heatmap.png)
 
 ---
 
