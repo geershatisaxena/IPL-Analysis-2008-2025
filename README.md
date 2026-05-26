@@ -227,18 +227,20 @@ Through extensive exploration of ball-by-ball data, this analysis reveals how th
 
 ---
 
-# 🏏 Franchise Performance Analytics
+# 📊 Top 20 Unique Batters Performance Dashboard
 
-![Franchise Performance](assets/franchise-performance.png)
+![Top 20 Unique Batters](https://github.com/geershatisaxena/IPL-Analysis-2008-2025/blob/main/top.png)
 
-### Analysis Areas
+### Analytical Dimensions
 
-- Overall team success
-- Season-wise consistency
-- Batting strength comparison
-- Bowling effectiveness comparison
-- Win contribution trends
-- Historical performance evolution
+- Top 20 batters by aggregate performance metrics
+- Run distribution and scoring pattern analysis
+- Batting average versus strike rate comparison
+- Boundary percentage contribution analysis
+- Consistency index across IPL seasons
+- Phase-wise scoring effectiveness (Powerplay, Middle, Death Overs)
+- Performance trend forecasting and historical evaluation
+- Comparative ranking among IPL batting greats
 
 ### Insights
 
