@@ -320,7 +320,7 @@ Through extensive exploration of ball-by-ball data, this analysis reveals how th
 
 # ⚡ Over-Wise Match Analysis
 
-![Over Analysis](assets/over-analysis.png)
+
 
 ### Phase Breakdown
 
@@ -364,7 +364,7 @@ Through extensive exploration of ball-by-ball data, this analysis reveals how th
 
 # 🌈 Seasonal Trends
 
-![Seasonal Trends](assets/seasonal-trends.png)
+
 
 ### Long-Term Evolution
 
