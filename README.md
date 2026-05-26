@@ -32,10 +32,13 @@
 
 </div>
 
-The **Indian Premier League (IPL)** has evolved into one of the world's most competitive and entertaining cricket tournaments. This project presents a comprehensive analysis of IPL matches spanning **2008 to 2025**, leveraging advanced data analytics techniques to uncover hidden trends, player performances, franchise dominance, scoring patterns, and strategic insights.
+<p align="justify">
+The <strong>Indian Premier League (IPL)</strong> has evolved into one of the world's most competitive and entertaining cricket tournaments. This project presents a comprehensive analysis of IPL matches spanning <strong>2008 to 2025</strong>, leveraging advanced data analytics techniques to uncover hidden trends, player performances, franchise dominance, scoring patterns, and strategic insights.
+</p>
 
+<p align="justify">
 Through extensive exploration of ball-by-ball data, this analysis reveals how the tournament has transformed over nearly two decades, highlighting the factors that contribute to success in modern T20 cricket.
-
+</p>
 ---
 
 # 🎯 Project Objectives
