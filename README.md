@@ -257,26 +257,39 @@ Through extensive exploration of ball-by-ball data, this analysis reveals how th
 
 # 🌟 Batting Performance Dashboard
 
-![Batting Dashboard](assets/batting-dashboard.png)
+![Batting Dashboard](https://github.com/geershatisaxena/IPL-Analysis-2008-2025/blob/main/batting.png)
 
-### Featured Analysis
+### 🌟 Featured Top 10 Batter Analysis
 
-- Highest run scorers
-- Most boundaries
-- Strike rate leaders
-- Consistent performers
-- Match-winning innings
-- Partnership impact
+🏏 Highest Run Accumulators Across IPL History
 
-### Key Findings
+🚀 Strike Rate Dominators & Power Hitters
 
-🚀 Batting strike rates have steadily increased
+🔥 Boundary Kings – Most Fours & Sixes
 
-🔥 Aggressive batting approaches dominate modern IPL
+🎯 Consistency Leaders Across Multiple Seasons
 
-🏏 Boundary frequency has grown significantly over recent seasons
+💯 Century & Half-Century Specialists
 
-⭐ Elite batters consistently influence match outcomes
+🏆 Match-Winning and Pressure-Handling Performers
+
+🤝 Partnership Builders and Team Anchors
+
+📈 Career Growth & Season-Wise Performance Trends
+
+### 🔍 Key Findings
+
+🚀 The Top 10 batters collectively account for a significant share of IPL runs scored.
+
+🔥 Modern T20 cricket has witnessed a remarkable rise in strike rates and attacking intent.
+
+⚡ Boundary-hitting frequency has increased substantially, emphasizing power-based batting strategies.
+
+🏏 Elite batters consistently deliver impactful performances in high-pressure matches.
+
+📊 Long-term consistency remains the defining trait separating great players from legendary IPL performers.
+
+👑 The most successful batters combine run accumulation, acceleration, and match-winning ability with exceptional consistency.
 
 ---
 
