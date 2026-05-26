@@ -560,27 +560,25 @@ Through extensive exploration of ball-by-ball data, this analysis reveals how th
 # 🎖 Conclusion
 
 <p align="justify">
-  <span style="color:#00E5FF;">
-    The IPL has undergone a remarkable transformation from 2008 to 2025,
-    evolving into a tournament characterized by explosive batting,
-    innovative strategies, and data-driven decision-making.
-  </span>
-  <span style="color:#FFD700;">
-    Through detailed analysis of ball-by-ball data, this project uncovers
-    the patterns that define successful teams, elite players, and winning
-    approaches.
-  </span>
+  <span style="color:#FF9933;"><strong>The IPL has undergone a remarkable transformation from 2008 to 2025</strong></span>,
+  <span style="color:#00E5FF;">evolving into a tournament characterized by explosive batting</span>,
+  <span style="color:#FFD700;">innovative strategies</span>,
+  and <span style="color:#FF4D6D;">data-driven decision-making</span>.
+  <span style="color:#7CFC00;">Through detailed analysis of ball-by-ball data</span>,
+  this project uncovers the patterns that define
+  <span style="color:#FF6B6B;">successful teams</span>,
+  <span style="color:#00FA9A;">elite players</span>,
+  and <span style="color:#DA70D6;">winning approaches</span>.
 </p>
 
 <p align="justify">
-  <span style="color:#FF6B6B;">
-    The findings demonstrate how modern cricket continues to evolve,
-    providing valuable insights into performance optimization,
-    player evaluation, and competitive strategy
-  </span>
-  <span style="color:#39FF14;">
-    within one of the world's premier sporting leagues.
-  </span>
+  <span style="color:#FFD700;">The findings demonstrate how modern cricket continues to evolve</span>,
+  providing valuable insights into
+  <span style="color:#00E5FF;">performance optimization</span>,
+  <span style="color:#FF6B6B;">player evaluation</span>,
+  and <span style="color:#39FF14;">competitive strategy</span>
+  within one of the world's
+  <span style="color:#FF8C00;"><strong>premier sporting leagues</strong></span>.
 </p>
 ---
 
