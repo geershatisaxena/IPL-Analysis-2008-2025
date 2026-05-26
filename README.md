@@ -295,7 +295,7 @@ Through extensive exploration of ball-by-ball data, this analysis reveals how th
 
 # 🎳 Bowling Performance Dashboard
 
-![Bowling Dashboard](assets/bowling-dashboard.png)
+![Bowling Dashboard](https://github.com/geershatisaxena/IPL-Analysis-2008-2025/blob/main/bowling.png)
 
 ### Featured Analysis
 
