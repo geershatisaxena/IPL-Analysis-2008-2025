@@ -1,9 +1,6 @@
 <div align="center">
 
-<img
-  width="100%"
-  src="https://capsule-render.vercel.app/api?type=waving&height=320&color=0:FF6B35,25:F7931E,50:FFD23F,75:06FFA5,100:118AB2&text=IPL%202008-2025%20DATA%20ANALYSIS&fontSize=50&fontColor=ffffff&animation=twinkling&fontAlignY=40&desc=Comprehensive%20Cricket%20Analytics%20%7C%20Exploratory%20Data%20Analysis&descAlignY=62"
-/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=320&color=gradient&customColorList=24,12,20,17,30,6,2&text=🏏%20IPL%202008-2025%20DATA%20ANALYSIS&fontSize=50&fontColor=ffffff&animation=twinkling&fontAlignY=40&desc=Comprehensive%20Cricket%20Analytics%20%7C%20Exploratory%20Data%20Analysis&descAlignY=62"/>
 <br>
 
 <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=30&duration=3000&pause=1000&color=FF0000&center=true&vCenter=true&multiline=true&repeat=true&width=1200&height=130&lines=🏆+INDIAN+PREMIER+LEAGUE+ANALYTICS;📊+18+SEASONS+OF+CRICKET+INTELLIGENCE;🚀+DATA+DRIVEN+INSIGHTS+AND+VISUALIZATIONS;🔥+TEAMS+PLAYERS+MATCHES+AND+RECORDS"/>
