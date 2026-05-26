@@ -3,9 +3,8 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=320&color=gradient&customColorList=24,12,20,17,30,6,2&text=🏏%20IPL%202008-2025%20DATA%20ANALYSIS&fontSize=50&fontColor=ffffff&animation=twinkling&fontAlignY=40&desc=Comprehensive%20Cricket%20Analytics%20%7C%20Exploratory%20Data%20Analysis&descAlignY=62"/>
 <br>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=32&duration=2500&pause=800&color=00FFFF&center=true&vCenter=true&repeat=true&width=1400&height=120&lines=%F0%9F%8F%8F+IPL+2008-2025+DATA+ANALYSIS;%F0%9F%93%8A+18+SEASONS+OF+CRICKET+INTELLIGENCE;%F0%9F%8F%86+MATCHES+%7C+PLAYERS+%7C+TEAMS+%7C+RECORDS;%F0%9F%9A%80+NUMPY+%7C+PANDAS+%7C+MATPLOTLIB+%7C+SEABORN;%F0%9F%94%A5+ADVANCED+EDA+AND+VISUAL+ANALYTICS" alt="Typing SVG" />
-</p>
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=30&duration=3000&pause=1000&color=FF0000&center=true&vCenter=true&repeat=true&width=1200&height=100&lines=%F0%9F%8F%86+INDIAN+PREMIER+LEAGUE+ANALYTICS;%F0%9F%93%8A+18+SEASONS+OF+CRICKET+INTELLIGENCE;%F0%9F%9A%80+DATA+DRIVEN+INSIGHTS+AND+VISUALIZATIONS;%F0%9F%94%A5+TEAMS+PLAYERS+MATCHES+AND+RECORDS" alt="Typing SVG" />
+
 <br>
 
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
