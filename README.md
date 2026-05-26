@@ -342,7 +342,7 @@ Through extensive exploration of ball-by-ball data, this analysis reveals how th
 
 # 📍 Venue Intelligence
 
-![Venue Analysis](assets/venue-analysis.png)
+![Venue Analysis](https://github.com/geershatisaxena/IPL-Analysis-2008-2025/blob/main/venue.png)
 
 ### Ground Impact Analysis
 
