@@ -209,21 +209,21 @@ Through extensive exploration of ball-by-ball data, this analysis reveals how th
 
 ---
 
-# 📈 Tournament Growth Analysis
+# 🎯 Wicket Analysis & Trends
 
-![Tournament Growth](assets/tournament-growth.png)
+![Wicket Analysis](assets/wicket-analysis.png)
 
 ### Key Highlights
 
-✨ Significant growth in match volume across seasons
+🔥 Consistent rise in wicket-taking opportunities across IPL seasons
 
-✨ Increased scoring rates in modern IPL
+🎯 Fast bowlers and spinners have evolved with advanced bowling strategies
 
-✨ Expansion of franchises and competition
+⚡ Powerplay and death-over wickets continue to play a decisive role in match outcomes
 
-✨ Enhanced batting aggression over time
+🏏 Increased bowling variations have led to higher dismissal frequencies
 
-✨ Record-breaking performances becoming increasingly frequent
+🏆 Historic wicket-taking records are being challenged and surpassed more frequently
 
 ---
 
